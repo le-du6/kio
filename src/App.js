@@ -16,7 +16,7 @@ class App extends Component {
   render() {
     return (
       <div>
-        <Router history={browserHistory}>
+        <Router history={hashHistory}>
           <Route path="/" component={Home}></Route>
           <Route path="/contact" component={Contact}></Route>
           <Route path="/about" component={About}></Route>
